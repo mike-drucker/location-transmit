@@ -1,0 +1,5 @@
+public abstract class LocationServer extends NanoHTTPD {
+  public Response serve(String uri, String method, Properties header, Properties parms, Properties Files) {
+     Location location = 
+  }
+}
